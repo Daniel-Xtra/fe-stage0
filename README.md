@@ -70,4 +70,3 @@ To run the project locally:
 ### Clone the Repository
 
 git clone https://github.com/Daniel-Xtra/fe-stage0.git
-cd fe-stage0
