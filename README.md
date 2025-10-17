@@ -8,7 +8,7 @@ Font Awesome icons are used to enhance visual clarity and provide a professional
 
 ## Live Demo
 
-🔗 **[View Live Project](https://devkreate-profile-card.vercel.app)**
+🔗 **[View Live Project](https://devkreate-profile-card.netlify.app/)**
 
 ---
 
