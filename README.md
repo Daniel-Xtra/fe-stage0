@@ -1,4 +1,4 @@
-# 🪪 Profile Card — HNG Stage 0 Submission
+# Profile Card — HNG Stage 0 Submission
 
 A clean, responsive, and accessible **Profile Card** built using **semantic HTML**, **modern CSS**, and **vanilla JavaScript**.  
 This project fulfills all the requirements for the **HNG Stage 0 Task** and demonstrates a strong grasp of core frontend principles such as responsiveness, accessibility, and semantic markup.  
@@ -6,26 +6,26 @@ Font Awesome icons are used to enhance visual clarity and provide a professional
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-🔗 **[View Live Project](https://your-live-demo-link.vercel.app)**
-
----
-
-## ✨ Features
-
-- ✅ **Semantic HTML** — Uses proper HTML5 elements (`<article>`, `<header>`, `<figure>`, `<section>`, etc.)
-- ✅ **Accessibility** — Fully keyboard-accessible with ARIA labels, focus indicators, and alt text
-- ✅ **Responsive Design** — Mobile-first layout that adapts across screen sizes
-- ✅ **Font Awesome Integration** — Beautiful and scalable social icons
-- ✅ **Dynamic Time Display** — Shows the current time in milliseconds (updated live)
-- ✅ **Fully Testable** — Every visible element includes the required `data-testid` attributes
-- ✅ **Graceful Fallbacks** — Handles broken avatar links and unexpected content
-- ✅ **Zero Dependencies** — Built entirely with plain HTML, CSS, and JavaScript
+🔗 **[View Live Project](https://devkreate-profile-card.vercel.app)**
 
 ---
 
-## 🧱 Core Elements & Test IDs
+## Features
+
+- **Semantic HTML** — Uses proper HTML5 elements (`<article>`, `<header>`, `<figure>`, `<section>`, etc.)
+- **Accessibility** — Fully keyboard-accessible with ARIA labels, focus indicators, and alt text
+- **Responsive Design** — Mobile-first layout that adapts across screen sizes
+- **Font Awesome Integration** — Beautiful and scalable social icons
+- **Dynamic Time Display** — Shows the current time in milliseconds (updated live)
+- **Fully Testable** — Every visible element includes the required `data-testid` attributes
+- **Graceful Fallbacks** — Handles broken avatar links and unexpected content
+- **Zero Dependencies** — Built entirely with plain HTML, CSS, and JavaScript
+
+---
+
+## Core Elements & Test IDs
 
 | Element                 | `data-testid`                | Description                                 |
 | ----------------------- | ---------------------------- | ------------------------------------------- |
@@ -41,7 +41,7 @@ Font Awesome icons are used to enhance visual clarity and provide a professional
 
 ---
 
-## 🎨 UI & Design
+## UI & Design
 
 - Elegant, modern card layout with subtle shadows and rounded edges
 - Font Awesome icons for consistency and professional feel
@@ -52,7 +52,7 @@ Font Awesome icons are used to enhance visual clarity and provide a professional
 
 ---
 
-## ♿ Accessibility Features
+## Accessibility Features
 
 - Keyboard navigation for all links and interactive items
 - Visible focus states and hover feedback
@@ -63,11 +63,11 @@ Font Awesome icons are used to enhance visual clarity and provide a professional
 
 ---
 
-## ⚙️ Local Setup
+## Local Setup
 
 To run the project locally:
 
-### 1️⃣ Clone the Repository
+### Clone the Repository
 
-git clone https://github.com/yourusername/profile-card.git
-cd profile-card
+git clone https://github.com/Daniel-Xtra/fe-stage0.git
+cd fe-stage0

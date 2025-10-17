@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="developer" content="Devkreate" />
+    <meta name="description" content="HNG internship Frontend Stage 0 Task" />
+    <title>Profile Card - Devkreate</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <article class="profile-card" data-testid="test-profile-card">
+        <!-- Left Column -->
+        <aside class="profile-left">
+          <figure class="profile-avatar">
+            <img
+              src="https://res.cloudinary.com/vnpri/image/upload/v1760708544/daniel-profile-picture_f7wg9q.jpg"
+              alt="User Avatar"
+              data-testid="test-user-avatar"
+            />
+          </figure>
+          <nav class="socials" data-testid="test-user-social-links">
+            <a
+              href="https://x.com/DanielAkan81612"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-twitter"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a
+              href="https://github.com/Daniel-Xtra"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-github"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://linkedin.com/in/danielakanbi1"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-linkedin"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </nav>
+        </aside>
+
+        <!-- Right Column -->
+        <div class="profile-right">
+          <header>
+            <h2 data-testid="test-user-name">Daniel Akanbi</h2>
+            <p class="role">Frontend Developer & UI Engineer</p>
+          </header>
+
+          <p data-testid="test-user-bio" class="bio">
+            Passionate about crafting accessible, elegant, and performant
+            interfaces that make digital experiences seamless. Advocates for
+            clean design, collaboration, and continuous learning.
+          </p>
+
+          <div class="time" data-testid="test-user-time">
+            Current Time (ms): <span id="currentTime"></span>
+          </div>
+
+          <section class="lists">
+            <div class="list-card" data-testid="test-user-hobbies">
+              <h3><i class="fa-solid fa-heart"></i> Hobbies</h3>
+              <ul>
+                <li>Designing intuitive interfaces</li>
+                <li>Exploring modern web technologies</li>
+                <li>Reading UX case studies</li>
+                <li>Collaborating on open-source projects</li>
+              </ul>
+            </div>
+
+            <div class="list-card" data-testid="test-user-dislikes">
+              <h3><i class="fa-solid fa-ban"></i> Dislikes</h3>
+              <ul>
+                <li>Poor accessibility practices</li>
+                <li>Messy, unstructured code</li>
+                <li>Unclear feedback loops</li>
+                <li>Unnecessary complexity</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
